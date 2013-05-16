@@ -1,0 +1,68 @@
+﻿.main {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table td{
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.circle{
+    background-image: url(circle.png);
+}
+.cross{
+    background-image: url(cross.png);
+}
+
+div.legend{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+div.legendItem {
+    float: left;
+}
+.legendItem.active {
+    background-color: greenyellow;
+}
+div.legendItem:first-child {
+    margin-right: 10px;
+}
+
+.game{
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.turnInfo{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+section.leftSide {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+section.rightSide {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+section.centerSide
+{
+    width: 110px;
+    margin: 0 auto;
+}
